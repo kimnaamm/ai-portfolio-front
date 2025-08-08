@@ -15,7 +15,7 @@ const ping = async () => {
 
 <template>
   <div style="padding:24px">
-    <h1>Vue → Cloud Run 연결 테스트</h1>
+    <h1>Vue → Cloud Run 연결 테스트(firebase 자동배포)</h1>
     <button @click="ping">Ping Backend</button>
     <pre>{{ msg }}</pre>
   </div>
