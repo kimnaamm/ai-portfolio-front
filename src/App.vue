@@ -14,9 +14,16 @@ const ping = async () => {
 </script>
 
 <template>
-  <div style="padding:24px">
-    <h1>GitHub Actions → Firebase 자동배포 테스트!</h1>
-    <button @click="ping">Ping Backend</button>
-    <pre>{{ msg }}</pre>
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/">상품디비</router-link> |
+      <router-link to="/">상품속성</router-link> |
+      <router-link to="/">상품대체</router-link> |
+      <router-link to="/">대쉬보드</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+    <br/>
+    <router-view/>
   </div>
 </template>
